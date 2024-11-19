@@ -17,7 +17,7 @@ if (isset($_POST["nom"],$_POST["prenom"],$_POST["genre"],$_POST["datenaissance"]
         echo "Data insertion failed: " . $stmt->error;
     }
 
-    // Close statement and connection
+    
     $stmt->close();
     $con->close();
 } else {
